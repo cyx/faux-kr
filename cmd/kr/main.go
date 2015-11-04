@@ -126,7 +126,7 @@ func countSuccess() {
 
 func countErrors() {
 	defer wg.Done()
-	for err := range producer.Errors() {
+	for range producer.Errors() {
 		errorsCounter.Inc(1)
 	}
 }
