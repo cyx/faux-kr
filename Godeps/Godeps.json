@@ -1,0 +1,41 @@
+{
+	"ImportPath": "github.com/heroku/standin",
+	"GoVersion": "go1.5.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Shopify/sarama",
+			"Comment": "v1.6.1-10-gc54ed1f",
+			"Rev": "c54ed1f5f5177ea3f10379dd0d3f2c3ee7d6fe84"
+		},
+		{
+			"ImportPath": "github.com/eapache/go-resiliency/breaker",
+			"Comment": "v1.0.0-3-gf341fb4",
+			"Rev": "f341fb4dca45128e4aa86389fa6a675d55fe25e1"
+		},
+		{
+			"ImportPath": "github.com/eapache/queue",
+			"Comment": "v1.0.2",
+			"Rev": "ded5959c0d4e360646dc9e9908cff48666781367"
+		},
+		{
+			"ImportPath": "github.com/golang/snappy",
+			"Rev": "723cc1e459b8eea2dea4583200fd60757d40097a"
+		},
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Comment": "v1.1-3-g6aacfd5",
+			"Rev": "6aacfd5ab513e34f7e64ea9627ab9670371b34e7"
+		},
+		{
+			"ImportPath": "github.com/klauspost/crc32",
+			"Rev": "f8d2e12057f7ef26ae42ecfa42697f4bdc32d7eb"
+		},
+		{
+			"ImportPath": "github.com/rcrowley/go-metrics",
+			"Rev": "1ce93efbc8f9c568886b2ef85ce305b2217b3de3"
+		}
+	]
+}
